@@ -1,4 +1,11 @@
-h1, h2, body {
+html {
+    font-size: 2em;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1, h2, body, p {
     margin: 0;
     padding: 0;
 }
@@ -30,7 +37,25 @@ img {
 
 .overview {
     text-align: center;
-    background-color: #c086c0;
+    background-color: #ec5bec;
     padding: 2em;
-    font-size: 1em;
+}
+
+#overview-desc {
+    padding: 0.5em;
+    text-align: left;
+    text-indent: 3em;
+    line-height: 2;
+}
+
+.timeline {
+    background-color: #ffb5ff;
+    text-align: center;
+    padding: 2em;
+}
+
+footer {
+    background: #CD7F32;
+    text-align: center;
+    padding: 2em;
 }
