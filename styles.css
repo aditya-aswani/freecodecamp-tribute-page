@@ -1,3 +1,7 @@
+.bold {
+    font-weight: bold;
+}
+
 html {
     font-size: 2em;
     font-family: "Noto Sans", sans-serif;
@@ -26,7 +30,11 @@ header {
     padding: 2em;
 }
 
-img {
+#img-div {
+    text-align: center;
+}
+
+#image {
     display: block;
     max-width: 1000px;
     width: 80%;
@@ -35,13 +43,18 @@ img {
     height: auto;
 }
 
+#img-caption {
+    padding: 1.25em 2em 0.25em;
+    font-size: 0.8em;
+}
+
 .overview {
     text-align: center;
     background-color: #ec5bec;
     padding: 2em;
 }
 
-#overview-desc {
+#tribute-info {
     padding: 0.5em;
     text-align: left;
     text-indent: 3em;
@@ -51,11 +64,29 @@ img {
 .timeline {
     background-color: #ffb5ff;
     text-align: center;
-    padding: 2em;
+    padding: 2em 2em 0.5em 2em;
+}
+
+#last_note {
+    padding: 0 1em 1em;
+}
+
+#tribute-link {
+    color: darkblue;
 }
 
 footer {
     background: #CD7F32;
     text-align: center;
     padding: 2em;
+}
+
+ul {
+    padding: 0 2em 0;
+}
+
+li {
+    padding: 0.25em;
+    line-height: 2;
+    text-align: left;
 }

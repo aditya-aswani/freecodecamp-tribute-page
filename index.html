@@ -4,6 +4,7 @@
     2. X Decide on Structure
     3. Build it
     3b. Add credits for photo, font, and course
+    3c. Add a favicon
     4. Optimize for mobile
     5. Ensure Accessability
     6. Ask ChatGPT for feedback
@@ -22,34 +23,42 @@
 </head>
 <body>
     <header>
-        <h1>Siddhartha Gautama</h1>
+        <h1 id="title">Siddhartha Gautama</h1>
         <p id="subheading">The founder of Buddhism who taught the path to liberation</p>
     </header>
-    <main>
+    <main id="main">
         <section class="home">
-            <img src="the_buddha.jpg">
+            <div id="img-div">
+                <img id="image" src="the_buddha.jpg">
+                <p id="img-caption">A seventy-foot tall statue of the Buddha made of pink sandstone in the middle of Ghora Katora lake in Rajgir, Bihar, India.</p>
+            </div>
         </section>
         <section class="overview">
             <h2>Overview</h2>
-            <p id="overview-desc">The Buddha lived during the 6th century BCE and traveled throughout the region of what is present-day North India and Nepal. He was born to a royal family of high standing, but decided to renounce this lifestyle at age 29 in order to find the antidote to suffering. After many years of searching, he finally attained enlightenment at age 36. He then spent the remaining 44 years of his life spreading his teachings. Now, over 2,500 years later, Buddhism has spread far and wide, with over 520 million followers (comprising 7% of the world population), making it the world's 4th largest religion. Please note that as the Buddha lived so long ago, records of his life are far from accurate and often mixed with legend. What you'll find below is a rough approximation of his life timeline.</p>
+            <p id="tribute-info">The Buddha lived during the 6th century BCE and traveled throughout the region of what is present-day North India and Nepal. He was born to a royal family of high standing, but decided to renounce this lifestyle at age 29 in order to find the antidote to suffering. After many years of searching, he finally attained enlightenment at age 36. He then spent the remaining 44 years of his life spreading his teachings. Now, over 2,500 years later, Buddhism has spread far and wide, with over 520 million followers (comprising 7% of the world population), making it the world's 4th largest religion. Please note that as the Buddha lived so long ago, records of his life are far from accurate and often mixed with legend. What you'll find below is a rough approximation of his life timeline.</p>
         </section>
         <section class="timeline">
             <h2>Gautama's Life Timeline</h2>
             <ul>
-                <li>Gautama is born to a royal family</li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a class="bold">480 BCE</a> - Gautama is born to a royal family in Northern India.</li>
+                <li>A few days after he is born, his father holds a naming ceremony and invites several wise men. They all predict that Siddhartha will someday go on to become a great king or religious leader.</li>
+                <li>His father, hoping he would become a great king as opposed to a religious leader, gave him a sheltered life. It is said Siddhartha displayed great martial skill while growing up.</li>
+                <li>One night, Siddhartha snuck out of the palace with his charioteer and got a glimpse of the real world. He saw an aging man, a sick man, a dead man, and an ascetic.</li>
+                <li><a class="bold">451 BCE</a> - Shocked by the first three sights and inspired by the fourth, he left the palace at age 29 to seek enlightenment. In doing so, he also abandoned his wife and son.</li>
+                <li>He first practiced with two different teachers, reached high stages attainment in their practices and was invited to teach alongside them. However, he refused as he felt these paths did not help him attain the enlightenment he was searching for.</li>
+                <li>He then practiced ascetic techniques with some ascetics. He did this so much that his bones began to show through his skin.</li>
+                <li>After realizing this also was not the right path, he gave up this method. His ascetic companions abandoned him as a result. Soon after, he had the insight of Jhana.</li>
+                <li><a class="bold">445 BCE</a> - He then meditated under a Bodhi tree in the town of Bodh Gaya, Bihar in India. He decided he would not get up until he attained full enlightenment. And so he meditated for seven days and seven nights until finally attaining enlightenment.</li>
+                <li>After awakening, he gave his first sermon at Sarnath, India, on the Four Noble Truths, the Eightfold Path, and the Middle Way.</li>
+                <li>He then continued to travel around North India spreading his teachings. Over time, his sangha (community of followers) continued to grow.</li>
+                <li>Later on, he also started an order for female monastics, known as "bhikkunī".</li>
+                <li><a class="bold">425 BCE</a> - As he grew older, he travelled less and ended up spending his last days in Sravasti.</li>
+                <li><a class="bold">400 BCE</a> - In his final moments, the Buddha is said to have meditated, consecutively entered all the jhanas, and then attained paranirvana after death.</li>
             </ul>
         </section>
     </main>
     <footer>
+        <p id="last_note">If you are curious to learn more about the Buddha, please check out his Wikipedia page <a href="https://en.wikipedia.org/wiki/The_Buddha" id="tribute-link" target="_blank">here</a>.</p>
         <p>"When watching after yourself, you watch after others. When watching after others, you watch after yourself."</p>
         <p>- The Buddha</p>
     </footer>
