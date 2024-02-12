@@ -1,16 +1,21 @@
-h1, p, body {
+h1, h2, body {
     margin: 0;
     padding: 0;
 }
 
 header {
     text-align: center;
-    background-color: orange;
-    padding: 2em;
+    background-color: #f5b02f;
+    padding: 1.5em;
+}
+
+#subheading {
+    padding-top: 0.5em;
+    margin: 0;
 }
 
 .home {
-    background-color: bisque;
+    background-color: #ffe4c4;
     padding: 2em;
 }
 
@@ -21,4 +26,11 @@ img {
     border-radius: 10px;
     margin: auto;
     height: auto;
+}
+
+.overview {
+    text-align: center;
+    background-color: #c086c0;
+    padding: 2em;
+    font-size: 1em;
 }
